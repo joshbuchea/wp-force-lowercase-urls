@@ -4,7 +4,7 @@ Donate link: https://paypal.me/joshbuchea
 Tags: 301, redirect, lowercase, url
 Requires at least: 3.4
 Tested up to: 4.6
-Stable tag: 2.0
+Stable tag: 2.0.1
 License: MIT
 License URI: http://opensource.org/licenses/MIT
 
