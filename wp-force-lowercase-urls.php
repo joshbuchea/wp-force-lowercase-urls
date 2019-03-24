@@ -3,7 +3,7 @@
  * Plugin Name:     WP Force Lowercase URLs
  * Plugin URI:      https://github.com/joshbuchea/wp-force-lowercase-urls/
  * Description:     Redirect uppercase URLs to lowercase.
- * Version:         2.0.1
+ * Version:         2.1.0
  * Author:          Josh Buchea
  * Author URI:      http://joshbuchea.com/
  * Text Domain:     wp-force-lowercase-urls
