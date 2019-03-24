@@ -35,7 +35,7 @@ if ( !class_exists('WPForceLowercaseURLs') ) {
 
       // Grab requested URL
       $url = $_SERVER['REQUEST_URI'];
-      $params = $_SERVER['QUERY_STRING'];
+      $params = (isset($_SERVER['QUERY_STRING']) ? $_SERVER['QUERY_STRING'] : '');
 
       // If URL contains a period, halt (likely contains a filename and filenames are case specific)
       if ( preg_match('/[\.]/', $url) ) {
