@@ -3,8 +3,8 @@ Contributors: joshbuchea
 Donate link: https://paypal.me/joshbuchea
 Tags: 301, redirect, lowercase, url
 Requires at least: 3.4
-Tested up to: 5.0.3
-Stable tag: 2.1.0
+Tested up to: 7.1
+Stable tag: 2.1.1
 License: MIT
 License URI: http://opensource.org/licenses/MIT
 
@@ -33,6 +33,18 @@ Questions/Comments:
 4. Activate the plugin by pressing the "Activate" button.
 
 == Changelog ==
+
+= 2.1.1 =
+* Security: prevent redirects to other hosts from crafted URLs (open redirect hardening)
+* Fix: no longer redirects WordPress REST API URLs (/wp-json/), which broke case-sensitive routes
+* Fix: undefined index notice for REQUEST_URI when run without a web request (WP-CLI, cron)
+* Tested up to WordPress 7.1
+
+= 2.1.0 =
+* Fix: undefined index notice for QUERY_STRING (props jamesryanbell)
+
+= 2.0.1 =
+* Version bump
 
 = 2.0 =
 * Ground up rewrite
